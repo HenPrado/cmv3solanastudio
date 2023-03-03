@@ -43,12 +43,7 @@ import { writeFileSync } from "fs";
         await metaplex.nfts().create({
           name: "Numbers Collection",
           uri: "https://arweave.net/TKpUAanj-YoFdZ1Dx-UFkJ6GrBBjedWnrmPfwbuPbkg",
-          creators: [
-            {
-              "address": "CrnXZQaC5auxPKLd99w1T9cKbjMvNgfKmkBvE46EnFRF",
-              "share": 100
-            }
-          ],
+          creators: config.creators,
           sellerFeeBasisPoints: 500,
           isCollection: true,
           updateAuthority: key,
