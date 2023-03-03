@@ -35,7 +35,7 @@ const mintingWallet = metaplex.identity().publicKey;
   console.log(
     mintingWallet,
     allowList,
-    // merkleProof,
+    merkleProof,
     merkleProof.map((p) => new PublicKey(p).toString())
   );
   if (!merkleProof.length) return console.log("User is not in allowed list");
