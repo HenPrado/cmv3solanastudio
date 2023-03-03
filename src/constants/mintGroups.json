@@ -1,0 +1,56 @@
+[
+  {
+    "title": "First Class TOP 10",
+    "description": "Only whitelisted",
+    "groups": [
+      {
+        "label": "10"
+      }
+    ]
+  },
+  {
+    "title": "First Class TOP 100",
+    "description": "Only whitelisted",
+    "groups": [
+      {
+        "label": "100"
+      }
+    ]
+  },
+  {
+    "title": "First Class TOP 500",
+    "description": "Only whitelisted",
+    "groups": [
+      {
+        "label": "500"
+      }
+    ]
+  },
+  {
+    "title": "First Class",
+    "description": "Only whitelisted",
+    "groups": [
+      {
+        "label": "FC"
+      }
+    ]
+  },
+  {
+    "title": "Economy Class",
+    "description": "Only whitelisted",
+    "groups": [
+      {
+        "label": "EC"
+      }
+    ]
+  },
+  {
+    "title": "Public Mint",
+    "description": "Available for all",
+    "groups": [
+      {
+        "label": "PM"
+      }
+    ]
+  }
+]
