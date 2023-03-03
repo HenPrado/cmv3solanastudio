@@ -55,7 +55,7 @@ const mintingWallet = metaplex.identity().publicKey;
     callCandyGuardRouteBuilder(metaplex, {
       candyMachine,
       guard: "allowList",
-      group: "10",
+      group,
       settings: {
         path: "proof",
         merkleProof,
